@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo{
+    font-size: 25px;
+    text-align: center;
+    /* Justifica el texto */
+    background-color: #636363;
+    color: #fff;
+    margin: 20px 20px 0px 20px;
+    /* Margen alrededor del párrafo */
+    padding: 10px;
+    /* Espacio interior del párrafo */
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 25px;
+    text-align: center
+}
+
+/* Estilos para el blockquote */
+blockquote {
+    margin: 0px 20px 20px 20px;
+    /* Margen alrededor del blockquote */
+    padding: 5px;
+    /* Espacio interior del blockquote */
+    background-color: #f9f9f9;
+    /* Fondo claro para el blockquote */
+}
