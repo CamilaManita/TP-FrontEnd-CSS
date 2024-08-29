@@ -1,31 +1,73 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 20px 0px 0px;
 }
 
-#titulo{
-    font-size: 25px;
+#tittle p{
+    font-size: 1.5625em; /* 25px */
     text-align: center;
     /* Justifica el texto */
     background-color: #636363;
     color: #fff;
-    margin: 20px 20px 0px 20px;
+    margin: 0em 0em 0em 1.25em;
     /* Margen alrededor del párrafo */
-    padding: 10px;
+    padding: 0.625em;
     /* Espacio interior del párrafo */
 }
 
-/* Estilos para el párrafo */
-p {
-    font-size: 25px;
-    text-align: center
+#tittle blockquote {
+    margin: 0em 1.25em 1.25em 1.95em;
+    /* Margen alrededor del blockquote */
+    padding:  0.3125em; /* 5px */
+    /* Espacio interior del blockquote */
+    background-color: #dfdddd;
+    /* Fondo claro para el blockquote */
+    width: 81.4em;
 }
 
-/* Estilos para el blockquote */
-blockquote {
-    margin: 0px 20px 20px 20px;
-    /* Margen alrededor del blockquote */
-    padding: 5px;
-    /* Espacio interior del blockquote */
-    background-color: #f9f9f9;
-    /* Fondo claro para el blockquote */
+#text-prop hr {
+    background-color: black;
+    color: black;
+    height: 0.1em;
+    width: 65.6em;
+    margin-left: 0em;
+    border: none;
+}
+
+#text-prop p {
+    font-size: 0.9375em; /* 15px */
+    margin-left: 0em;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+#prop-tittles{
+    font-size: 1.25em;
+    margin-left: 1.875em; /* 30px */
+    text-align: justify;
+}
+
+#text-prop blockquote {
+    margin: 0em 1.25em 0em 0em;
+    padding:  0.3125em; /* 25px */
+    background-color: #dfdddd;
+    width: 65.2em;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+#box-prop-tittle{
+    font-size: 1.25em;
+    margin-left: 1.25em;
+    text-align: justify;
+}
+
+#box-prop hr {
+    background-color: black;
+    color: black;
+    height: 0.1em;
+    width: 82.2em;
+    margin-left: 0em;
+    border: none;
 }
