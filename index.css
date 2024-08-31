@@ -1,36 +1,36 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px 20px 0px 0px;
+    margin-left: 1,25em;
+    margin-right: 1,25em;
+    margin-top: 1,25em;
 }
 
 #tittle p{
     font-size: 1.5625em; /* 25px */
     text-align: center;
     /* Justifica el texto */
-    background-color: #636363;
+    background-color: #525252;
     color: #fff;
-    margin: 0em 0em 0em 1.25em;
+    /* margin: 0em 0em 0em 1.25em; */
     /* Margen alrededor del párrafo */
     padding: 0.625em;
     /* Espacio interior del párrafo */
 }
 
 #tittle blockquote {
-    margin: 0em 1.25em 1.25em 1.95em;
-    /* Margen alrededor del blockquote */
-    padding:  0.3125em; /* 5px */
-    /* Espacio interior del blockquote */
+    margin-top: -1.55em;
+    margin-bottom: 1.25em;
+    margin-left: 0em;
+    padding: 0.3125em;
     background-color: #dfdddd;
-    /* Fondo claro para el blockquote */
-    width: 81.4em;
+    width: 83.65em;
 }
 
 #text-prop hr {
     background-color: black;
     color: black;
     height: 0.1em;
-    width: 65.6em;
-    margin-left: 0em;
+    margin-top: -0.02em;
     border: none;
 }
 
@@ -44,7 +44,6 @@ body {
 
 #prop-tittles{
     font-size: 1.25em;
-    margin-left: 1.875em; /* 30px */
     text-align: justify;
 }
 
@@ -55,19 +54,42 @@ body {
     width: 65.2em;
     font-style: italic;
     font-size: 0.7em;
-}
-
-#box-prop-tittle{
-    font-size: 1.25em;
-    margin-left: 1.25em;
-    text-align: justify;
+    color: #616060;
 }
 
 #box-prop hr {
     background-color: black;
     color: black;
     height: 0.1em;
-    width: 82.2em;
-    margin-left: 0em;
+    margin-top: -0.02em;
     border: none;
+}
+
+#box {
+    padding: 0.3em 1em; /* 10px = 0.625em, 20px = 1.25em */
+    margin: 0.625em 0; /* 10px = 0.625em */
+    border: 0.0625em solid #ccc; /* 1px = 0.0625em */
+    box-shadow: 0.1875em 0.1875em 0.3125em rgba(0, 0, 0, 0.2); /* 3px = 0.1875em, 5px = 0.3125em */
+    background-color: #f9f9f9;
+    border-radius: 0.3125em; /* 5px = 0.3125em */
+    border-color: #525252;
+}
+
+#box p {
+    font-size: 0.8em;
+}
+
+#box-highlight {
+    border: 2px solid #555;
+    background-color: #ffe0b2;
+    padding: 0.3em 1em; /* 10px = 0.625em, 20px = 1.25em */
+    margin: 0.625em 0; /* 10px = 0.625em */
+    border: 0.0625em solid #ccc; /* 1px = 0.0625em */
+    box-shadow: 0.1875em 0.1875em 0.3125em rgba(0, 0, 0, 0.2); /* 3px = 0.1875em, 5px = 0.3125em */
+    border-radius: 0.3125em; /* 5px = 0.3125em */
+    border-color: #525252;
+}
+
+#box-highlight p {
+    font-size: 0.8em;
 }
